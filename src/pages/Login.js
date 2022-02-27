@@ -5,13 +5,13 @@ import { Card, Stack, Link, Container, Typography } from '@mui/material';
 // layouts
 import AuthLayout from '../layouts/AuthLayout';
 // components
-import Page from '../components/Page';
+import PageWrapper from '../components/PageWrapper';
 import { LoginForm } from '../sections/authentication/login';
 import AuthSocial from '../sections/authentication/AuthSocial';
 
 // ----------------------------------------------------------------------
 
-const RootStyle = styled(Page)(({ theme }) => ({
+const RootStyle = styled(PageWrapper)(({ theme }) => ({
   [theme.breakpoints.up('md')]: {
     display: 'flex'
   }

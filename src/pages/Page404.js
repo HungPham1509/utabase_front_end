@@ -5,11 +5,11 @@ import { styled } from '@mui/material/styles';
 import { Box, Button, Typography, Container } from '@mui/material';
 // components
 import { MotionContainer, varBounceIn } from '../components/animate';
-import Page from '../components/Page';
+import PageWrapper from '../components/PageWrapper';
 
 // ----------------------------------------------------------------------
 
-const RootStyle = styled(Page)(({ theme }) => ({
+const RootStyle = styled(PageWrapper)(({ theme }) => ({
   display: 'flex',
   minHeight: '100%',
   alignItems: 'center',
